@@ -1,10 +1,11 @@
 import React from 'react';
-import Header from './components/Header'
+import Rotas from './components/Rotas';
 
 function App() {
   return (
     <div className="App">
-      <Header />     
+      <Rotas />   
+      
       
     </div>
   );
