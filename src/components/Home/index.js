@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Header";
-import PauloPicture from "../assets/pauloPicture.svg";
+import Avatar from "../Avatar";
 
 const Home = () => (
   <div>
@@ -16,8 +16,9 @@ const Home = () => (
         Download CV
       </a>
     </div>
-    <img src={PauloPicture} alt="Foto do Paulo"/>
+    <Avatar/>
   </div>
+  
 );
 
 export default Home;
