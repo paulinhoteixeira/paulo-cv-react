@@ -1,5 +1,8 @@
+import PageStructure from '../PageStructure';
+
 const About = () => (
   <div>
+      <PageStructure>
     <h2>Paulo Teixeira de Oliveira</h2>
     <h2>31 anos</h2>
     <h2>São Paulo - SP</h2>
@@ -51,6 +54,7 @@ const About = () => (
         <p>PMI</p>
       </div>
     </div>
+    </PageStructure>
   </div>
 );
 
