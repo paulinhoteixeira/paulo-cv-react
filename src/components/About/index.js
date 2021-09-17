@@ -1,55 +1,48 @@
 import PageStructure from "../PageStructure";
+import InfoBox from "../InfoBox";
 
 const About = () => (
   <div>
     <PageStructure>
-      <div>
-        <h2>Education</h2>
+      <InfoBox title="Education">
         <p>Ciência da Computação</p>
         <div></div>
         <p>Administração</p>
-      </div>
+      </InfoBox>
 
-      <div>
-        <h2>Experience</h2>
+      <InfoBox title="Experience">
         <p>Ciência da Computação</p>
         <div></div>
         <p>Administração</p>
-      </div>
+      </InfoBox>
 
-      <div>
-        <h2>Skills</h2>
-        <div>
-          <h3>Coding</h3>
-          <p>HTML</p>
-          <div></div>
-          <p>CSS</p>
-          <div></div>
-          <p>Javascript</p>
-          <div></div>
-          <p>React</p>
-        </div>
+      <InfoBox title="Coding">
+        <p>HTML</p>
+        <div></div>
+        <p>CSS</p>
+        <div></div>
+        <p>Javascript</p>
+        <div></div>
+        <p>React</p>
+      </InfoBox>
 
-        <div>
-          <h3>Tools and technologies</h3>
-          <p>Visual Studio Code</p>
-          <div></div>
-          <p>GIT</p>
-          <div></div>
-          <p>Git Hub</p>
-          <div></div>
-          <p>Figma</p>
-        </div>
+      <InfoBox title="Tools and technologies">
+        <p>Visual Studio Code</p>
+        <div></div>
+        <p>GIT</p>
+        <div></div>
+        <p>Git Hub</p>
+        <div></div>
+        <p>Figma</p>
+      </InfoBox>
 
-        <div>
-          <h3>Project Management</h3>
-          <p>Scrum</p>
-          <div></div>
-          <p>Kanban</p>
-          <div></div>
-          <p>PMI</p>
-        </div>
-      </div>
+      <InfoBox title="Project Management">
+        <p>Scrum</p>
+        <div></div>
+        <p>Kanban</p>
+        <div></div>
+        <p>PMI</p>
+      </InfoBox>
     </PageStructure>
   </div>
 );
