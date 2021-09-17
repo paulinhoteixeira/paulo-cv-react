@@ -1,6 +1,7 @@
 import React from "react";
 
 import PageStructure from "../PageStructure";
+import InfoBox from "../InfoBox";
 
 const Home = () => (
   <>
@@ -9,7 +10,7 @@ const Home = () => (
       <h2>31 anos</h2>
       <h2>São Paulo - SP</h2>
 
-      <h2>Profile</h2>
+      <InfoBox title="Profile">
       <p>
         Graduado em Ciências da Computação e Administração de Empresas com
         ênfase em finanças e com certificações SFPC (CertiProf), SFC
@@ -21,6 +22,12 @@ const Home = () => (
         Tenho facilidade em me adaptar e interagir com novas equipes, ambientes
         e cultura organizacional. Em transição de carreira para desenvolvimento.
       </p>
+
+
+      </InfoBox>
+
+     
+     
     </PageStructure>
   </>
 );
