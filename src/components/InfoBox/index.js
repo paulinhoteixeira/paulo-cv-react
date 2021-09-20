@@ -14,7 +14,7 @@ const InfoBox = (props) => {
       <div>
         <h2>{props.title}</h2>
         
-        <img onClick={ Visible } src={visible ? CloseButton : Plus}/>
+        <img onClick={ Visible } src={visible ? CloseButton : Plus} alt="Icone para abrir e fechar conteúdo"/>
       </div>
 
       {
