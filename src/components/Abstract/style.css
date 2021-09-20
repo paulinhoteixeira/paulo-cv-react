@@ -2,9 +2,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;  
+    align-items: center;   
+    padding: 0 4rem 0 4rem;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
 }
 .nameAndAvatar{
-    display: flex;    
+    display: flex;   
+    justify-content: space-between;  
 }
 
 .name{
@@ -13,16 +21,18 @@
     color: #FEFEFE;
 }
 
-.details{
+.abstractDetails{
+    
     margin-top: -5px;
     font-size: 1.6rem;
     color: #CFCFCF;
+    
 }
 
 .abstractButtons{
     display: flex;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 10rem;
 
 }
 

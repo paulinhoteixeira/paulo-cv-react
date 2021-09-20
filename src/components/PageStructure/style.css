@@ -6,5 +6,13 @@
 
 .fixedBox {
     display: flex;
-    justify-content: center;
+    justify-self: center;
+    width: 90%;
+}
+
+.dynamicBox {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 90%;
 }
