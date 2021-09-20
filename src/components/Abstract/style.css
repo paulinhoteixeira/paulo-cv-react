@@ -1,0 +1,39 @@
+.abstract{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.nameAndAvatar{
+    display: flex;    
+}
+
+.name{
+    font-size: 5rem;
+    width: 50%;
+    color: #FEFEFE;
+}
+
+.details{
+    margin-top: -5px;
+    font-size: 1.6rem;
+    color: #CFCFCF;
+}
+
+.abstractButtons{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+
+.abstractButtons a:first-child{
+    margin: 0;
+    margin-right: 45px;
+    background: #fefefe;
+    border-radius: 50px;
+    padding: 1.8rem 5rem 1.8rem 5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #010101;
+}

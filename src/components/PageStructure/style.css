@@ -1,4 +1,10 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.fixedBox {
+    display: flex;
+    justify-content: center;
 }
