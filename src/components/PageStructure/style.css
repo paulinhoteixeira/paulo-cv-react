@@ -8,15 +8,14 @@
 .fixedBox {
     display: flex;
     justify-self: center;
-    width: 90%;
 }
 
 .dynamicBox {
     display: flex;
     flex-direction: column;
     justify-self: center;
-    width: 90%;
     overflow-y: auto;
+    width: 100%;
 }
 
 /* SCROLL */

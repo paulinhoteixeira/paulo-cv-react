@@ -1,7 +1,6 @@
 import React from "react";
 
 import PageStructure from "../PageStructure";
-import "./style.css";
 
 const Home = () => (
   <>

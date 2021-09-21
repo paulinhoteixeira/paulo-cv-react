@@ -1,50 +1,37 @@
+import React from "react";
+
 import PageStructure from "../PageStructure";
-import InfoBox from "../InfoBox";
-
-const About = () => (
-  <div>
+import './style.css'
+const Home = () => (
+  <>
     <PageStructure>
-      <InfoBox title="Education">
-        <p>Ciência da Computação</p>
-        <div></div>
-        <p>Administração</p>
-      </InfoBox>
+      <div className="home">
+        <div className="homeDetails">
+          <h2>Paulo Teixeira de Oliveira</h2>
+          <p>31 anos</p>
+          <p>Brasileiro</p>
+          <p>Solteiro</p>
+          <p>São Paulo - SP</p>
+        </div>
 
-      <InfoBox title="Experience">
-        <p>Ciência da Computação</p>
-        <div></div>
-        <p>Administração</p>
-      </InfoBox>
-
-      <InfoBox title="Coding">
-        <p>HTML</p>
-        <div></div>
-        <p>CSS</p>
-        <div></div>
-        <p>Javascript</p>
-        <div></div>
-        <p>React</p>
-      </InfoBox>
-
-      <InfoBox title="Tools and technologies">
-        <p>Visual Studio Code</p>
-        <div></div>
-        <p>GIT</p>
-        <div></div>
-        <p>Git Hub</p>
-        <div></div>
-        <p>Figma</p>
-      </InfoBox>
-
-      <InfoBox title="Project Management">
-        <p>Scrum</p>
-        <div></div>
-        <p>Kanban</p>
-        <div></div>
-        <p>PMI</p>
-      </InfoBox>
+        <div className="homeProfile">
+          <h2>Profile</h2>
+          <p>
+            Graduado em Ciências da Computação e Administração de Empresas com
+            ênfase em finanças e com certificações SFPC (CertiProf), SFC
+            (SCRUMstudy), CAPM (PMI) e ITIL V3. Experiência profissional em
+            implantação e suporte de sistema de gestão e mais de 8 anos de
+            atuação em Gestão de Projetos em empresas de TI. Altamente
+            comprometido e engajado em encontrar soluções consistentes para as
+            tarefas diárias e metas da empresa, colaborando com ideias,
+            planejamento e estratégias. Tenho facilidade em me adaptar e
+            interagir com novas equipes, ambientes e cultura organizacional. Em
+            transição de carreira para desenvolvimento.
+          </p>
+        </div>
+      </div>
     </PageStructure>
-  </div>
+  </>
 );
 
-export default About;
+export default Home;
