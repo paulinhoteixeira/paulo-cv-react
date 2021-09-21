@@ -1,0 +1,7 @@
+.abstractHome{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 100vh;
+}
