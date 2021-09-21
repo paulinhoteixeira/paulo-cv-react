@@ -16,4 +16,28 @@
     flex-direction: column;
     justify-self: center;
     width: 90%;
+    overflow-y: auto;
 }
+
+/* SCROLL */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #CFCFCF; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FEFEFE; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #CFCFCF; 
+  }
