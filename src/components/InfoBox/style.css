@@ -1,0 +1,22 @@
+.infoBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoBoxTitle {
+  display: flex;
+  align-items: center;
+}
+
+.infoBoxTitle h2 {
+  font-size: 2.4rem;
+  color: #fefefe;
+}
+
+.infoBoxTitle img{
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: #cfcfcf17;
+    margin-left: 5px;
+    border-radius: 3px;
+}
