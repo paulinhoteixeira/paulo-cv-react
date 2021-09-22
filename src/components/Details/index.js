@@ -1,9 +1,12 @@
 import PageStructure from "../PageStructure";
 import InfoBox from "../InfoBox";
 
+import "./style.css";
+
 const Details = () => (
   <PageStructure>
-      <div className="details">
+    <div className="details">
+      <h1 className="detailsTitle">Details</h1>
       <InfoBox title="Education">
         <div>
           <h3>Ciência da Computação</h3>
@@ -15,11 +18,10 @@ const Details = () => (
           <p>FECAP</p>
           <p>Julho/2012 – Junho/2016</p>
         </div>
-        
       </InfoBox>
 
       <InfoBox title="Work Experience">
-      <div>
+        <div>
           <h3>Coordenador – PMO</h3>
           <p>Linx Sistemas e Consultoria LTDA.</p>
           <p>Novembro/2019 – Atual</p>
@@ -58,8 +60,8 @@ const Details = () => (
         <div></div>
         <p>PMI</p>
       </InfoBox>
-  </div>
-    </PageStructure>
+    </div>
+  </PageStructure>
 );
 
 export default Details;

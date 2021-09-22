@@ -1,0 +1,14 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4rem 0 4rem;
+}
+
+.detailsTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 2.4rem;
+  color: #fefefe;
+  margin-top: 30px;
+}
