@@ -21,7 +21,7 @@ const InfoBox = (props) => {
 
       {
         visible && 
-        <div>{props.children}</div>
+        <div className="infoBoxContent">{props.children}</div>
       }
     </div>
   );

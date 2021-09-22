@@ -2,18 +2,33 @@ import PageStructure from "../PageStructure";
 import InfoBox from "../InfoBox";
 
 const Details = () => (
-  <div>
-    <PageStructure>
+  <PageStructure>
+      <div className="details">
       <InfoBox title="Education">
-        <p>Ciência da Computação</p>
-        <div></div>
-        <p>Administração</p>
+        <div>
+          <h3>Ciência da Computação</h3>
+          <p>UNINOVE</p>
+          <p>Janeiro/2007 – Dezembro/2010</p>
+        </div>
+        <div>
+          <h3>Administração de Empresas com Ênfase em Finanças</h3>
+          <p>FECAP</p>
+          <p>Julho/2012 – Junho/2016</p>
+        </div>
+        
       </InfoBox>
 
-      <InfoBox title="Experience">
-        <p>Ciência da Computação</p>
-        <div></div>
-        <p>Administração</p>
+      <InfoBox title="Work Experience">
+      <div>
+          <h3>Coordenador – PMO</h3>
+          <p>Linx Sistemas e Consultoria LTDA.</p>
+          <p>Novembro/2019 – Atual</p>
+        </div>
+        <div>
+          <h3>Consultor de Projetos Sênior - PMO</h3>
+          <p>Millennium Network LTDA.</p>
+          <p>Janeiro/2013 – Outubro/2019</p>
+        </div>
       </InfoBox>
 
       <InfoBox title="Coding">
@@ -43,8 +58,8 @@ const Details = () => (
         <div></div>
         <p>PMI</p>
       </InfoBox>
-    </PageStructure>
   </div>
+    </PageStructure>
 );
 
 export default Details;

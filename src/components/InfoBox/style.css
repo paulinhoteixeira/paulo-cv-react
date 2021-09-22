@@ -1,6 +1,8 @@
 .infoBox {
   display: flex;
   flex-direction: column;
+  margin-top: 24px;
+
 }
 
 .infoBoxTitle {
@@ -16,7 +18,18 @@
 .infoBoxTitle img{
     width: 2.4rem;
     height: 2.4rem;
-    background-color: #cfcfcf17;
     margin-left: 5px;
     border-radius: 3px;
 }
+
+.infoBoxContent h3{
+  font-size: 1.6rem;
+  color: #CFCFCF;
+  margin-top: 16px;
+}
+
+.infoBoxContent p{
+  font-size: 1.6rem;
+  color: #CFCFCF;
+}
+
