@@ -1,0 +1,21 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4rem 0 4rem;
+  }
+  
+  .projectsTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 2.4rem;
+    color: #fefefe;
+    margin-top: 30px;
+  }
+  
+  .projectsLink{
+      display: flex;
+      justify-content: center;
+      margin: 10px auto;
+      width: 10rem;
+  }
